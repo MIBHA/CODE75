@@ -19,4 +19,4 @@ class Solution1:
 s= Solution1()
 print(f"'IceCreAm' -> '{s.reverseVowels('IceCreAm')}'")
 print(f"'leetcode' -> '{s.reverseVowels('leetcode')}'")
-print(f"'hello' -> '{s.reverseVowels('hello')}'")  # Test change
+print(f"'hello' -> '{s.reverseVowels('Hello')}'") 
