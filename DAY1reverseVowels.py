@@ -1,4 +1,4 @@
-class Solution1:
+class day1:
     def reverseVowels(self, s: str) -> str:
         vowels = set("aeiouAEIOU") #we can do this {'a','e','i','o','u','A','E','I','O','U'}
         con_list = list(s)         #converting string to list
@@ -16,7 +16,7 @@ class Solution1:
                 right -= 1
 
         return ''.join(con_list)
-s= Solution1()
+s= day1()
 print(f"'IceCreAm' -> '{s.reverseVowels('IceCreAm')}'")
 print(f"'leetcode' -> '{s.reverseVowels('leetcode')}'")
 print(f"'hello' -> '{s.reverseVowels('Hello')}'") 
