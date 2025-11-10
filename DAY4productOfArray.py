@@ -16,5 +16,5 @@ class day4:
         return answer   
     
 s= day4()
-num_list1 = [1,2,3,4]   
-print(s.productExceptSelf(num_list1))
+num_list = [1,2,3,4]   
+print(s.productExceptSelf(num_list))

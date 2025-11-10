@@ -1,4 +1,3 @@
-file = None
 try:
     file = open("file.txt", "r")
     data = file.read()
